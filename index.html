@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>董二刚的微博_微博</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" href="css/scss/stylesheets/Normalize-4.1.1.css">
+		<link rel="stylesheet" href="css/scss/stylesheets/style.css" />        
+	</head>
+	<body>
+		<div class="container">
+			<div class="nav">
+				<a href="#" class="logo"><img src="img/logo.png" /></a>
+				<div class="search">
+					<input type="text" class="input-search" placeholder="大家正在搜：各大企业为何抢着招聘董二刚同学？"/>
+					<a><i class="icon-search"></i></a>
+					<div class="search-content">
+						<ul>
+							<li>董二刚同学的成长日记</li>
+							<li>自传：如何成为一名优秀的WEB前端工程师</li>
+							<li>董二刚同学会见了阿里董事长马云</li>
+							<li>董二刚教你如何使用Github</li>
+							<li>董二刚同学的心路历程，前端那些事儿</li>
+						</ul>
+					</div>
+				</div>
+				<ul class="header-right">
+                    <li><a href="#"><i class="icon-home3"></i><span>首页</span></a></li>
+                    <li><a href="#"><i class="icon-compass2"></i><span>发现</span></a></li>
+                    <li><a href="#"><i class="icon-game-controller"></i><span>游戏</span></a></li>
+                    <li><a href="#"><i class="icon-head"></i><span>董二刚</span></a></li>
+                    <li>|</li>
+                    <li class="email">
+                    	<a href="#"><i class="icon-mail"></i></a>
+	                    	<div class="email-content">
+	                    		<ul>
+	                    			<li><a href="#">@我</a></li>
+	                    			<li><a href="#">评论</a></li>
+	                    			<li class="email-zan"><a href="#">赞</a></li>
+	                    			<li><a href="#">私信</a></li>
+	                    			<li><a href="#">未关注人私信</a></li>
+	                    			<li><a href="#">群通知</a></li>
+	                    			<li id="email-seting"><a href="#">消息设置</a></li>
+	                    		</ul>
+	                    	</div>
+                    </li>
+                    <li class="hander-right-seting">
+                    	<a href="#"><i class="icon-cog"></i></a>
+                    	<div class="hander-right-seting-content">
+                    		<ul>
+                    			<li><a href="#">账号设置</a></li>
+                    			<li><a href="#">会员中心</a></li>
+                    			<li><a href="#">V认证</a></li>
+                    			<li><a href="#">账号安全</a></li>
+                    			<li><a href="#">隐私设置</a></li>
+                    			<li><a href="#">消息设置</a></li>
+                    			<li><a href="#">帮助中心</a></li>
+                    			<li><a href="#">退出</a></li>
+                    		</ul>
+                    	</div>
+                    </li>
+                    <li class="hander-right-write"><a href="#" title="试一下键盘N键？"><i class="icon-write"></i></a></li>
+				</ul>
+			</div>		
+			<!--封面-->
+			<div class="title-page">
+				<div class="user-hand">
+					<img src="img/user-hand.jpg" />
+					<br/>
+					<label class="user-name">董二刚<span class="user-sex"></span></label>
+					<br />
+					<label class="user-Introduction">准web前端工程师</label>
+				</div>
+				<div class="title-page-option">
+					<ul>
+						<li>我的主页</li>
+						<li>我的相册</li>
+						<li>管理中心</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="main-left">
+				
+				<div class="count">
+					<span><a href="javascript:;">99</a><label>关注</label></span>
+					<span class="fans"><a href="javascript:;">13亿</a><label>粉丝</label></span>
+					<span><a href="javascript:;">99</a><label>微博</label></span>
+				</div>
+				
+				<div class="wechat">
+					<label class="wechat-title">微信</label>
+					<div class="wechat-main">
+						<img src="img/wechat.jpg" class="wechat-sm-pic" />
+						<label>扫二维码，可以添加我的微信</label>
+						<div class="wechat-lg-pic">
+							<img src="img/wechat.jpg"  />
+						</div>
+					</div>
+				</div>
+
+				<div class="qq">
+					<label class="qq-title">QQ</label>
+					<div class="qq-main">
+						<img src="img/qq.png" class="qq-sm-pic" />
+						<label>扫二维码，可以添加我的QQ</label>
+						<div class="qq-lg-pic">
+							<img src="img/qq.png"  />
+						</div>
+					</div>
+				</div>
+
+				<div class="github">
+					<label class="github-title">github</label>
+					<div class="github-main">
+						<a href="https://github.com/Dongeg" target="_blank"><img src="img/github.jpg" class="github-sm-pic" /></a>
+						<label>点击进入我的Github</label>
+					</div>
+				</div>
+			</div>
+			<!--main-right-->
+			<div class="main-right">
+		    <!------------------基本信息------------------------->
+				<div class="info">
+					<div class="section-title">
+						<span>基本信息</span>
+						<div class="hr"></div>
+					</div>
+					<div class="section-main">
+                       <form>
+                       	<p>
+                       	   <label>姓名：</label>
+                       	   <input type="text" value="董二刚" readonly="true" class="input"/>
+                       	</p>
+                       	<p>
+                       		<label>性别：</label>
+                       		<div class="radio">
+                        		<input type="radio" name="sex" value="male" checked="checked" disabled="disabled"/>纯爷们 
+                       		    <input type="radio" name="sex" value="female" readonly="true"disabled="disabled"/> 女汉子               			
+                       		</div>
+                       	</p>
+                       	<p>
+                       		<label>性取向：</label>
+                       		<div class="radio">
+                        		<input type="checkbox" name="sex" value="male" checked="checked" disabled="disabled"/>帅哥
+                       		    <input type="checkbox" name="sex" value="female" checked="checked" disabled="disabled"/> 美女 (这里可以双选哦)              			
+                       		</div>
+                       	</p>                       	
+                       	<p>
+                       		<label>生日：</label>
+                       		<input type="text" class="input" value="1994年/1月/31日" readonly="true" />
+                       	</p>
+                       	<p>
+                       	   <label>学历：</label>
+                       	   <input type="text" value="本科" readonly="true" class="input"/>
+                       	</p> 
+                       	<p>
+                       	   <label>毕业院校：</label>
+                       	   <input type="text" value="肇庆学院" readonly="true" class="input"/>
+                       	</p> 
+                       	<p>
+                       	   <label>专业：</label>
+                       	   <input type="text" value="物联网工程" readonly="true" class="input"/>
+                       	</p>   
+                       	<p>
+                       	   <label>毕业时间：</label>
+                       	   <input type="text" value="2017年6月" readonly="true" class="input"/>
+                       	</p>                       	
+                       	<p><label>所在地：</label>
+                       		<div class="radio">
+                       			<select>
+                       				<option value="">广东</option>
+                       			</select>
+                        		<select>
+                       				<option value="">肇庆</option>
+                       			</select>      
+                       		</div>
+                       	</p>
+                       	<p><label>家乡：</label>
+                       		<div class="radio">
+                       			<select>
+                       				<option value="">山西</option>
+                       			</select>
+                        		<select>
+                       				<option value="">太原</option>
+                       			</select>      
+                       		</div>
+                       	</p> 
+                       	<p><label>感情状况：</label>
+                       		<div class="radio">
+                       			<select>
+                       				<option value="">单身QAQ</option>
+                       			</select>    
+                       		</div>
+                       	</p>
+                       	<p>
+                       		<label>手机：</label>
+                       		<input type="number" class="input" value="13202629601" readonly="true" />
+                       	</p> 
+                       	<p>
+                       		<label>邮箱：</label>
+                       		<input type="email" class="input" value="821220992@qq.com" readonly="true" />
+                       	</p>                        	
+                       </form>
+					</div>
+				</div>
+				<!-------------------------------------求职意向------------------------------------------>
+				<div class="Career-Objective">
+					<div class="section-title">
+						<span>求职意向</span>
+						<div class="hr"></div>
+					</div>
+					<div class="section-main">
+                       <form>
+                       	<p>
+                       	   <label>期望职业：</label>
+                       	   <input type="text" value="web前端工程师" readonly="true" class="input"/>
+                       	</p>                        	
+                       	<p>
+                       	   <label>工作性质：</label>
+                       	   <input type="text" value="实习" readonly="true" class="input"/>
+                       	</p> 
+                       	<p>
+                       	   <label>工作地区：</label>
+                       	   <input type="text" value="最好在广东境内" readonly="true" class="input"/>
+                       	</p> 
+                       	<p>
+                       	   <label>薪资：</label>
+                       	   <input type="text" value="面议，能学到知识的话白干也可以" readonly="true" class="input"/>
+                       	</p>                        	
+                       </form>
+					</div>
+				</div>	
+				<!----------------------专业技能---------------------------------->
+				<div class="skill">
+					<div class="section-title">
+						<span>专业技能</span>
+						<div class="hr"></div>
+					</div>
+					<div class="section-main">
+                       	<p>
+                       	   <label>HTML5：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color html"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>
+                       	<p>
+                       	   <label>CSS3：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color css"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>
+                       	<p>
+                       	   <label>javascript：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color js"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p> 
+                       	<p>
+                       	   <label>jquery：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color jq"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>
+                       	<p>
+                       	   <label>bootstrap：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color bs"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>  
+                       	<p>
+                       	   <label>scss：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color scss"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>    
+                       	<p>
+                       	   <label>photoshop：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color ps"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>  
+                       	<p>
+                       	   <label>linux：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color linux"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p> 
+                       	<p>˙☆`·.·˙˙`·..·˙˙`·..·˙☆`·.·˙˙`·..·˙☆˙以下是还在学习中的知识˙☆`·.·˙˙`·..·˙˙`·..·˙☆`·.·˙˙`·..·˙☆˙  </p>
+                       	<p>
+                       	   <label>React：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color react"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>    
+                       	<p>
+                       	   <label>gulp：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color gulp"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p> 
+                       	<p>
+                       	   <label>webpack：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color webpack"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p> 
+                       	<p>
+                       	   <label>node.js：</label>
+                       	   <div class="help-process-align">
+	                       	   	<div class="process">
+	                                <div class="process-color node"></div>                        	   		
+	                       	   	</div>                    
+                       	   </div>
+                       	</p>                        	
+					</div>
+					<p>PS:其实我也不知道我这些知识学的到底怎么样，因为知道的越多，知道自己不知道的也越多。。。</p>
+				</div>	
+				<!-------------------------------项目经验------------------------------------>
+				<div class="project">
+					<div class="section-title">
+						<span>项目经验</span>
+						<div class="hr"></div>
+					</div>
+					<div class="section-main">
+                       <form style="clear: both;">
+                       	<p>
+                       	   <label>项目名称：</label>
+                       	   <input type="text" value="肇庆市臻品皇茶官网" readonly="true" class="input"/>
+                       	</p>                        	                      	
+                       	<p>
+                       	   <label>项目描述：</label>
+                       	   <textarea class="project-description" readonly="readonly">在我纠结该继续学php还是用心去做前端时接到这个项目，运用了html5、bootstrap，css3，和简单的js，二次开发完成了这和项目，也赚到了人生第一桶金，也是因为这个项目让我决定去学前端。</textarea> 
+                       	   <a class="project-read" href="http://www.royaltea.gd.cn/" target="_blank">点击访问</a>
+                       	</p>
+                       </form> 
+                       <form style="clear: both;">
+                       	<p>
+                       	   <label>项目名称：</label>
+                       	   <input type="text" value="ZEALER首页" readonly="true" class="input"/>
+                       	</p>                        	                      	
+                       	<p>
+                       	   <label>项目描述：</label>
+                       	   <textarea class="project-description" readonly="readonly">在学校组着的HTML5专业实训中，我用这个小项目获得了三等奖，主要是运用了bootstrap实现了自适应和css3动画加了一些jquery特效。</textarea> 
+                       	   <a class="project-read" href="https://dongeg.github.io/ZEALERv2/" target="_blank">点击访问</a>
+                       	</p>
+                       </form>  
+                       <form style="clear: both;">
+                       	<p>
+                       	   <label>项目名称：</label>
+                       	   <input type="text" value="仿Bing首页" readonly="true" class="input"/>
+                       	</p>                        	                      	
+                       	<p>
+                       	   <label>项目描述：</label>
+                       	   <textarea class="project-description" readonly="readonly">假期练手完成的一个小项目，基本和Bing首页一模一样，也实现了其前端交互功能，我还用ajax模拟了其搜索提示功能，不过json数据中只存了‘我’‘我爱你’‘我爱你们’三个词条，当然，还有一些bug有待修复。</textarea> 
+                       	   <a class="project-read" href="https://dongeg.github.io/Bing-index-page/" target="_blank">点击访问</a>
+                       	</p>
+                       </form>  
+                       <form style="clear: both;">
+                       	<p>
+                       	   <label>项目名称：</label>
+                       	   <input type="text" value="更多" readonly="true" class="input"/>
+                       	</p>                        	                      	
+                       	<p>
+                       	   <label>项目描述：</label>
+                       	   <textarea class="project-description" readonly="readonly">还有更多的小项目，插件，学习笔记，请访问我的Github。</textarea> 
+                       	   <a class="project-read" href="https://github.com/Dongeg" target="_blank">点击访问</a>
+                       	</p>
+                       </form>                         
+					</div>
+				</div>	
+				<!-------------------自我评价---------------------------------->
+				<div class="pingja">
+					<div class="section-title">
+						<span>自我评价</span>
+						<div class="hr"></div>
+					</div>
+					<div class="section-main">
+                       <form>
+	                       	<p>
+	                       		<label>学习上：</label>
+	                       		<div class="radio">
+	                        		<input type="checkbox" name="study" checked="checked" disabled="disabled"/>有自学能力
+	                       		    <input type="checkbox" name="study" checked="checked" disabled="disabled"/> 翻墙阅读外文文献              			
+	                       		</div>
+	                       	</p> 
+	                       	<p>
+	                       		<label>工作上：</label>
+	                       		<div class="radio">
+	                       			<input type="checkbox" name="work" checked="checked" disabled="disabled"/> 吃苦
+	                        		<input type="checkbox" name="work" checked="checked" disabled="disabled"/>加班
+	                       		    <input type="checkbox" name="work" checked="checked" disabled="disabled"/> 熬夜   
+	                       		    <input type="checkbox" name="work" checked="checked" disabled="disabled"/> 挨骂
+	                       		</div>
+	                       	</p> 
+	                       	<p>
+	                       		<label>生活上：</label>
+	                       		<div class="radio">
+	                       			<input type="checkbox" name="life" checked="checked" disabled="disabled"/> 基本自理
+	                        		<input type="checkbox" name="life" checked="checked" disabled="disabled"/>无不良嗜好
+	                       		</div>
+	                       	</p>
+	                       	<p>
+	                       		<label>感情上：</label>
+	                       		<div class="radio">
+	                       			<input type="checkbox" name="love" checked="checked" disabled="disabled"/>服从组织安排 
+	                       		</div>
+	                       	</p>	               
+                       </form>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<!---------------------footer---------------------------------------------->
+		<div class="footer">
+			<div class="footer-link">
+	          <dl>
+	            <dt>微博精彩</dt>
+	            <dd><a class="" target="_blank" href="javascript:;">热门微博</a><a class="" target="_blank" href="javascript:;">热门话题</a></dd>
+	            <dd><a class="" target="_blank" href="javascript:;">名人堂</a><a class="" target="_blank" href="javascript:;">微博会员</a></dd>
+	            <dd><a class="" target="_blank" href="javascript:;">微相册</a><a class="" target="_blank" href="javascript:;">微游戏</a></dd>
+	            <dd><a class="" target="_blank" href="javascript:;">微指数</a></dd>
+	          </dl>	
+	          <dl>
+	            <dt>手机玩微博</dt>
+                <dd><span class="footer-ma"><img  src="img/footer_code.jpg" /></span><a class="more" target="_blank" href="javascript:;">扫码下载，更多版本<br/>戳这里</a></dd>
+	          </dl>	
+	          <dl>
+	            <dt>认证&合作</dt>
+	            <dd><a class="" target="_blank" href="javascript:;">申请认证</a><a class="" target="_blank" href="javascript:;">开放平台</a></dd>
+	            <dd><a class="" target="_blank" href="javascript:;">企业微博</a><a class="" target="_blank" href="javascript:;">链接网站</a></dd>
+	            <dd><a class="" target="_blank" href="javascript:;">微博表示</a><a class="" target="_blank" href="javascript:;">广告服务</a></dd>
+	            <dd><a class="" target="_blank" href="javascript:;">微博商学院</a></dd>
+	          </dl>	
+	          <dl>
+	            <dt>微博帮助</dt>
+                <dd><a class="" target="_blank" href="javascript:;">常见问题</a></dd>
+	            <dd><a class="" target="_blank" href="javascript:;">自助服务</a></dd>
+	          </dl>		          
+			</div>
+			<div class="footer-right">
+				<ul>
+					<li><a href="javascript:;"><i class="footer-weibo-icon"></i>微博客服</a></li>
+					<li><a href="javascript:;">意见反馈</a></li>
+					<li><a href="javascript:;">舞弊举报</a></li>
+					<li><a href="javascript:;">开放平台</a></li>
+					<li><a href="javascript:;">微博招聘</a></li>
+					<li><a href="javascript:;">新浪网导航</a></li>
+					<li><a href="javascript:;">举报处理大厅</a></li>
+					<li>
+						<select name="">
+						   <option value="">中文(简体)</option>
+						   <option value="">中文(香港)</option>
+						   <option value="">中文(台湾)</option>
+						   <option value="">English</option>
+					    </select>
+					</li>					
+				</ul>
+				<p>服务热线：4000 960 960（个人/企业）服务时间9:00-21:00 4000 980 980（广告主）服务时间9:00-18:00 （按当地市话标准计算）</p>
+				<ul>
+					<li><a href="javascript:;">京ICP证100780号</a></li>
+					<li><a href="javascript:;">互联网药品服务许可证</a></li>
+					<li><a href="javascript:;">互联网医疗保健许可证</a></li>
+					<li><a href="javascript:;">京网文[2014]2046-296号</a></li>
+					<li><a href="javascript:;">京ICP备12002058号</a></li>
+					<li><a href="javascript:;">增值电信业务经营许可证B2-20140447</a></li>					
+				</ul>				
+				<p>Copyright © 2009-2016 WEIBO 北京微梦创科网络技术有限公司<i class="footer-hui"></i>京公网安备11000002000019号</p>
+			</div>
+		</div>
+		<!-----------------返回顶部------------------------->
+		<div class="back-top"></div>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js" ></script>
+		<script type="text/javascript" src="js/script.js" ></script>		
+	</body>
+</html>
